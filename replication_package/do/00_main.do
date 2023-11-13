@@ -5,8 +5,6 @@
 
 global path "YOUR_PATH"
 
-global path "/Users/cpeukert/Dropbox/Projekte/CopyrightLevies/replication_package"
-
 cd "$path/data"
 global outputpath="../output"
 
