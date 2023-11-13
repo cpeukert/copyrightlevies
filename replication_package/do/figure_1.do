@@ -80,7 +80,7 @@ replace q=q/1000
 		
 gen log_gb=log(q)
  
-gen levy_netherlands=.0267679/q  // data from Private Copying Global Study, p. 408 and 09_device_levy.do
+gen levy_netherlands=.0267679/q  // data from Private Copying Global Study, p. 408 and own calculations based on survey
 
 
 gen rq=round(q,0.1)
